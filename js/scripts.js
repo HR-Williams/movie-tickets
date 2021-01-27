@@ -1,12 +1,15 @@
 // business logic for ticket
 
 function Ticket(moviePrice, timePrice, agePrice, totalPrice) {
-  this.moviePrice= moviePrice;
+  this.moviePrice = moviePrice;
   this.timePrice = timePrice;
   this.agePrice = agePrice;
-  this.ticketPrice = "";
+  // this.ticketPrice = "";
 }
 
+// I don't think ticketPrice needs to be a property of the ticket?
+
+// ??we can just run the prototype on each variable??
 
 
 Ticket.prototype.sumPrice = function() {  

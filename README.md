@@ -30,6 +30,7 @@ Expect: myTicket(5,5,5,"")
 **Test** Add each property value within Ticket object together to calculate totalPrice
 
 Expect myTicket.sumPrice().toEqual(15)
+
 **Test:**
 
 **Expect:**

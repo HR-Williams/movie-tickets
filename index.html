@@ -8,6 +8,40 @@
   <title>Movie Tickets</title>
 </head>
 <body>
-  <h1>Movie Ticket Sales</h1>
+  <div class="container">
+    <h1>Movie Ticket Sales</h1>
+    <form id="moviesForm">
+
+      <h3>What movie do you want to purchase a ticket for?</h3>
+      <select class="form-control" id="moviePrice">
+        <option selected="selected"></option>
+        <option value="5">Wonder Woman</option>
+        <option value="5">Soul</option>
+        <option value="3">Citizen Kane</option>
+        <option value="3">Goonies</option>
+      </select>
+
+      <h3>Choose a movie time?</h3>
+      <select class="form-control" id="timePrice">
+        <option selected="selected"></option>
+        <option value="3">Noon</option>
+        <option value="3">3pm</option>
+        <option value="5">7pm</option>
+        <option value="5">9pm</option>
+      </select>
+
+      <h3>How old are you?</h3>
+      <select class="form-control" id="timePrice">
+        <option selected="selected"></option>
+        <option value="5">Under 65</option>
+        <option value="3">65 or older</option>
+      </select>
+
+      <button type="submit" value="submit" class="btn btn-success">Ticket price</button>
+    </form>
+    <div id="show-price">
+      
+    </div>
+  </div>
 </body>
 </html>
