@@ -13,7 +13,18 @@
 
 ## Description
 
-_This is an assignment for Epicodus Week 2 to demonstrate new skills in JavaScript & jQuery. It is a quiz to assist user in choosing a programming language to study _
+_This is an assignment for Epicodus Week 2 to demonstrate new skills in JavaScript & jQuery. It is a quiz to assist user in choosing a programming language to study_
+
+## Specs
+ **Describe:** Price(movieTitle, time, age)
+
+**Test:** If user chooses a Movie Title 6 is added.
+
+**Expect:** (price(newMovie).toEqual(6)); 
+
+**Test:**
+
+**Expect:**
 
 ## Setup/Installation Requirements
 
