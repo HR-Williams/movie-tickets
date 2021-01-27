@@ -24,7 +24,12 @@ _This is an assignment for Epicodus Week 2 to demonstrate new skills in JavaScri
 
 **Describe** Ticket(moviePrice, timePrice, agePrice, totalPrice)
 **Test** Will create Ticket objects
-Expect: Ticket(5,5,5,"")
+Expect: myTicket(5,5,5,"")
+
+**Describe** Ticket.prototype.sumPrice()
+**Test** Add each property value within Ticket object together to calculate totalPrice
+
+Expect myTicket.sumPrice().toEqual(15)
 **Test:**
 
 **Expect:**
