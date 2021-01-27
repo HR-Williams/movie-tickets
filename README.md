@@ -16,12 +16,15 @@
 _This is an assignment for Epicodus Week 2 to demonstrate new skills in JavaScript & jQuery. It is a quiz to assist user in choosing a programming language to study_
 
 ## Specs
- **Describe:** Price(movieTitle, time, age)
+ <!-- **Describe:** Ticket(moviePrice)
 
-**Test:** If user chooses a Movie Title 6 is added.
+**Test:** If user chooses a Movie Title 6 is added. -->
 
-**Expect:** (price(newMovie).toEqual(6)); 
+<!-- **Expect:** (myTicket(movieTitle).toEqual(6));  -->
 
+**Describe** Ticket(moviePrice, timePrice, agePrice, totalPrice)
+**Test** Will create Ticket objects
+Expect: Ticket(5,5,5,"")
 **Test:**
 
 **Expect:**

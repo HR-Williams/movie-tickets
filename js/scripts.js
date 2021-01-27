@@ -1,8 +1,8 @@
-function Ticket(movieTitle,) {
+function Ticket(moviePrice, timePrice, agePrice, totalPrice) {
   this.moviePrice= moviePrice;
-  // this.timePrice = timePrice;
-  // this.agePrice = agePrice;
-  // this.totalPrice = "";
+  this.timePrice = timePrice;
+  this.agePrice = agePrice;
+  this.totalPrice = "";
 }
 
 Ticket.prototype.price = function(){
